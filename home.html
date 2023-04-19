@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <h1>Minha Lista de Tarefas</h1>
+    <form>
+        <input type="text" id="new-task" placeholder="Digite uma nova tarefa">
+        <button type="submit">Adicionar</button>
+    </form>
+        <div class="tasks">
+            <div class="pending-tasks">
+                <h2>Tarefas Pendentes</h2>
+                    <ul id="task-list"></ul>
+            </div>
+            <div class="completed-tasks">
+                <h2>Tarefas Concluídas</h2>
+                    <ul id="completed-list"></ul>
+            </div>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
